@@ -1,0 +1,191 @@
+:root {
+  --color-1: #219ebc;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+.contain {
+  color: #1d3557;
+}
+
+#homePage::before {
+  content: "";
+  background-image: url(/img/grid.jpg);
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+.main {
+  background: rgba(250, 249, 249, 0.4);
+}
+
+
+.navbar {
+  transition: 0.5s;
+}
+.navbar-nav a {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: #219ebc;
+}
+
+.firstName {
+  padding-left: 15px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+.description {
+  margin: 15px auto;
+  font-size: 1.2rem;
+}
+
+.text-bienvenue {
+  font-size: 30px;
+}
+
+.big-text {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.entete, .presentation {
+  margin-bottom: 50vh;
+  font-size: 18px;
+}
+
+.main-content {
+  padding-top: 300px;
+}
+
+.mouse-btn:hover {
+  color: #457b9d;
+  cursor: pointer;
+}
+
+.mouse-btn:active {
+  transform: rotate(180deg);
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    max-width: 25vw;
+  }
+  .text-competences {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+}
+
+#profilePicture {
+  min-width: 75%;
+  max-height: 65vh;
+}
+
+.presentation, .mySkill {
+  margin-bottom: 20vh;
+}
+
+
+.bi {
+  font-size: 2rem;
+  color: #219ebc;
+}
+
+.mouse-btn {
+  color: #1d3557;
+  font-size: 3rem;
+}
+
+.img-competence {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 25%;
+  max-height: 18vh;
+}
+
+.card {
+  color: #1d3557;
+}
+
+.section {
+  margin-top: 10vh;
+}
+
+.text-competences {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.main-content section:nth-child(2n) {
+  background-color: #242F40;
+}
+
+.portraits {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid lightgray;
+}
+
+a.home-btn {
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  background: var(--color-1);
+}
+
+.scroll-up {
+  font-size: 17px;
+  color: white;
+}
+
+#scroll-top-button {
+  position: fixed;
+  background-color: var(--color-1);
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+#scroll-top-button:hover {
+  background-color: black;
+}
+
+#scroll-top-button.show {
+  visibility: visible;
+}
+
+#first-work-picture:hover, #second-work-picture:hover, #third-work-picture:hover {
+  transform: scale(1);
+  transition-duration: 0.8s;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
