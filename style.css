@@ -16,7 +16,7 @@ html {
 
 #homePage::before {
   content: "";
-  background-image: url(/img/grid.jpg);
+  background-image: url(img/grid.jpg);
   transform: rotate(180deg);
   background-repeat: no-repeat;
   background-size: cover;
